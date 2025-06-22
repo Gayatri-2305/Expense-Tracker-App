@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText android:id="@+id/inputDescription" android:hint="Description" />
+    <EditText android:id="@+id/inputAmount" android:hint="Amount" android:inputType="numberDecimal" />
+    <EditText android:id="@+id/inputCategory" android:hint="Category" />
+    <Button android:id="@+id/btnAdd" android:text="Add" />
+</LinearLayout>
